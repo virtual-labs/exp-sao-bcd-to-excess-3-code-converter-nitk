@@ -1,901 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="css/main.css">
-        <title>Virtual labs</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOLVE</title>
 
-	</head>
-  <body>
-
-<!DOCTYPE html><html lang="en"><head>
-      <!--Google Tag Manager-->
-      <script class="gtm">
-        var dataLayer = [{
-        'labName': 'Mini Project Group 15',
-        'discipline': 'Design of Digital systems',
-        'college': 'NITK',
-        'expName': 'Detection of Stuck at 0 fault on BCD-to excess-3 code converter',
-        'expShortName': 'Stuck at 0'
-        }];
-    
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-W59SWTR');
-      </script>
-      <!--End Google Tag Manager-->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="" name="description">
-    <meta content="" name="author">
-    
-      <meta name="experiment-short-name" content="stuck at fault">
-      <meta name="developer-institute" content="NITK">
-      <meta name="learning-unit" content="Detection of Stuck at 0 fault on BCD-to excess-3 code converter">
-      <meta name="task-name" content="Aim">
-    
-    <!-- For iPhone -->
-    <meta name="msapplication-TileColor" content="#4076e0">
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#4076e0">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#4076e0">
-    <title>Virtual Labs</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/github-markdown.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.6-b/css/style.min.css">
-    <link rel="stylesheet" href="css/vlabs-style.css">
-    
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <style>
-      h1 {
-      font-size: 1.8rem;
-      }
-      h2 {
-      font-size: 1.4rem;
-      }
-      h3 {
-      font-size: 1.2rem;
-      }
-
-      h2, h3 {
-      font-weight: 800;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css" />
   </head>
-  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
-      <!--Google Tag Manager (noscript)-->
-      <noscript class="gtm">
-        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-W59SWTR" style="display:none;visibility:hidden" width="0">
-        </iframe>
-      </noscript>
-      <!--End Google Tag Manager (noscript)-->
-  
-     
-<div style="margin-left:15%;padding:1px 16px;height:1000px;">
-  <h1>Simulation</h1>
-  <div style="position:absolute;left:390px;top:110px;">
+  <body>
+    <div class="container">
+      <div class="title-div-container">
+        <div class="title-div">
+          <div class="logo-div">
+            <a href="#"
+              ><img src="images/logo_nitk.png" alt="Logo" class="logo"
+            /></a>
+          </div>
+          <h1>exp sao bcd to excess 3 code converter</h1>
+        </div>
+      </div>
+      <div class="sidebar">
+        <ul class="tool-menu">
+          <li class="tool-list tool-practice">
+            <a class="tool-link" title="Simulation"
+              ><img src="./images/solution.png" alt="solution" class="icons"
+            /></a>
+            <span>Simulation</span>
+          </li>
+          <li class="tool-list tool-practice" onclick="AddData()">
+            <a class="tool-link" title="Run"
+              ><img src="./images/run.png" alt="solution" class="icons"
+            /></a>
+            <span>Run</span>
+          </li>
+          <li class="tool-list tool-help" onclick="refreshPage()">
+            <a class="tool-link" title="Refresh">
+              <img src="./images/bluecwdull.svg" class="icons" />
+            </a>
+            <span>Refresh</span>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="main-section">
+          <div id="simulation" class="main__task-div">
+            <h3 class="task-title">Simulation</h3>
+            <div class="canvas__div">
+              <div class="task-screen apparatus hide"></div>
+              <div class="task-screen practice">
+                <div class="wrapper">
+                  <div class="grid-container">
+                    <div class="div1">
+                      <div class="image-container">
+                        <img src="./images/image.png" alt="Sample Image" />
+                        <div class="S1">
+                          <label>
+                            <input type="checkbox" id="S1" />
+                          </label>
+                        </div>
 
-  <tr>
-        <td>
-           <img src="images/image.png"  width="700" height="480"/>
-         </td>
-         </tr>
+                        <div class="S19">
+                          <label>
+                            <input type="checkbox" id="S19" />
+                          </label>
+                        </div>
 
-  </div>
-  <div style="position:absolute;left:300px;top:140px;">
-    <h6>Input</h6>
-  </div>
-  <form id="myForm">
+                        <div class="S3">
+                          <label> <input type="checkbox" id="S3" /></label>
+                        </div>
 
-  <div style="position:absolute;left:275px;top:155px;">
-    <table width="0%" border="0">
-      <tr>
-        <td>
-           <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputD" onkeyup="checkmyinput()" id="D"/></input></td>
-         </tr>
-       </table>
-  </div>
+                        <div class="S2">
+                          <label> <input type="checkbox" id="S2" /></label>
+                        </div>
 
-  <div style="position:absolute;left:275px;top:205px;">
-    <table width="0%" border="0">
-      <tr>
-        <td>
-           <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputC" onkeyup="checkmyinput()" id="C"/></input></td>
-         </tr>
-       </table>
-  </div>
+                        <div class="S4">
+                          <label> <input type="checkbox" id="S4" /></label>
+                        </div>
 
-  <div style="position:absolute;left:275px;top:350px;">
-    <table width="0%" border="0">
-      <tr>
-        <td>
-           <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputB" onkeyup="checkmyinput()" id="B"/></input></td>
-         </tr>
-       </table>
-  </div>
+                        <div class="S5">
+                          <label> <input type="checkbox" id="S5" /></label>
+                        </div>
 
-  <div style="position:absolute;left:275px;top:550px;">
-    <table width="0%" border="0">
-      <tr>
-        <td>
-           <input type = "text" style="width:100px; font-size:15pt; overflow:hidden;" size="5" min="0" maxlength="1" name="myinputA" onkeyup="checkmyinput()" id="A"/></input></td>
-         </tr>
-       </table>
-  </div>
+                        <div class="S15">
+                          <label> <input type="checkbox" id="S15" /></label>
+                        </div>
+                        <div class="S18">
+                          <label> <input type="checkbox" id="S18" /></label>
+                        </div>
 
-<div style="position:absolute;left:400px;top:675px;">
-<label><input style=" background: #27d447 !important;height:50px; width:105px" id = "button" type = "reset" value = "Reset" onclick="clearForm()"></label>
-</div>
-<div style="position:absolute;left:900px;top:675px;">
-<label><input style=" background: #27d447 !important;height:50px; width:105px" id = "button" type = "button" value = "Run" onclick="AddData()"></label>
-</div>
+                        <div class="S17">
+                          <label> <input type="checkbox" id="S17" /></label>
+                        </div>
 
-<div style="position:absolute;left:509px;top:140px;">
-  <label> <input style type="checkbox" id="S1"></label>
-</div>
+                        <div class="S20">
+                          <label> <input type="checkbox" id="S20" /></label>
+                        </div>
 
-<div style="position:absolute;left:587px;top:140px;">
-  <label> <input style type="checkbox" id="S19"></label>
-</div>
+                        <div class="S16">
+                          <label> <input type="checkbox" id="S16" /></label>
+                        </div>
+                        <div class="S14">
+                          <label> <input type="checkbox" id="S14" /></label>
+                        </div>
+                        <div class="S13">
+                          <label> <input type="checkbox" id="S13" /></label>
+                        </div>
 
-<div style="position:absolute;left:490px;top:203px;">
-  <label> <input style type="checkbox" id="S3"></label>
-</div>
+                        <div class="S12">
+                          <label> <input type="checkbox" id="S12" /></label>
+                        </div>
 
-<div style="position:absolute;left:490px;top:187px;">
-  <label> <input style type="checkbox" id="S2"></label>
-</div>
+                        <div class="S6">
+                          <label> <input type="checkbox" id="S6" /></label>
+                        </div>
 
-<div style="position:absolute;left:492px;top:262px;">
-  <label> <input style type="checkbox" id="S4"></label>
-</div>
+                        <div class="S8">
+                          <label> <input type="checkbox" id="S8" /></label>
+                        </div>
 
-<div style="position:absolute;left:492px;top:278px;">
-  <label> <input style type="checkbox" id="S5"></label>
-</div>
+                        <div class="S7">
+                          <label> <input type="checkbox" id="S7" /></label>
+                        </div>
 
-<div style="position:absolute;left:589px;top:270px;">
-  <label> <input style type="checkbox" id="S15"></label>
-</div>
+                        <div class="S22">
+                          <label> <input type="checkbox" id="S22" /></label>
+                        </div>
 
-<div style="position:absolute;left:722px;top:194px;">
-  <label> <input style type="checkbox" id="S18"></label>
-</div>
+                        <div class="S21">
+                          <label> <input type="checkbox" id="S21" /></label>
+                        </div>
 
-<div style="position:absolute;left:726px;top:215px;">
-  <label> <input style type="checkbox" id="S17"></label>
-</div>
+                        <div class="S23">
+                          <label> <input type="checkbox" id="S23" /></label>
+                        </div>
 
-<div style="position:absolute;left:819px;top:207px;">
-  <label> <input style type="checkbox" id="S20"></label>
-</div>
+                        <div class="S10">
+                          <label> <input type="checkbox" id="S10" /></label>
+                        </div>
 
-<div style="position:absolute;left:720px;top:339px;">
-  <label> <input style type="checkbox" id="S16"></label>
-</div>
+                        <div class="S9">
+                          <label> <input type="checkbox" id="S9" /></label>
+                        </div>
+                        <div class="S11">
+                          <label>
+                            <input type="checkbox" id="S11" />
+                          </label>
+                        </div>
+                      </div>
 
-<div style="position:absolute;left:720px;top:356px;">
-  <label> <input style type="checkbox" id="S14"></label>
-</div>
+                      <div id="input1">
+                        <table width="0%" border="0">
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                size="5"
+                                min="0"
+                                maxlength="1"
+                                name="myinputD"
+                                onkeyup="checkmyinput()"
+                                id="D"
+                                class="D"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
 
-<div style="position:absolute;left:718px;top:417px;">
-  <label> <input style type="checkbox" id="S13"></label>
-</div>
+                      <div id="input2">
+                        <table width="0%" border="0">
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                size="5"
+                                min="0"
+                                maxlength="1"
+                                name="myinputC"
+                                onkeyup="checkmyinput()"
+                                id="C"
+                                class="C"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
 
-<div style="position:absolute;left:719px;top:433px;">
-  <label> <input style type="checkbox" id="S12"></label>
-</div>
+                      <div id="input3">
+                        <table width="0%" border="0">
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                size="5"
+                                min="0"
+                                maxlength="1"
+                                name="myinputB"
+                                onkeyup="checkmyinput()"
+                                id="B"
+                                class="B"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
 
-<div style="position:absolute;left:509px;top:438px;">
-  <label> <input style type="checkbox" id="S6"></label>
-</div>
-
-<div style="position:absolute;left:719px;top:505px;">
-  <label> <input style type="checkbox" id="S8"></label>
-</div>
-
-<div style="position:absolute;left:720px;top:530px;">
-  <label> <input style type="checkbox" id="S7"></label>
-</div>
-
-<div style="position:absolute;left:890px;top:377px;">
-  <label> <input style type="checkbox" id="S22"></label>
-</div>
-
-<div style="position:absolute;left:889px;top:395px;">
-  <label> <input style type="checkbox" id="S21"></label>
-</div>
-
-<div style="position:absolute;left:982px;top:386px;">
-  <label> <input style type="checkbox" id="S23"></label>
-</div>
-
-<div style="position:absolute;left:894px;top:542px;">
-  <label> <input style type="checkbox" id="S10"></label>
-</div>
-
-<div style="position:absolute;left:894px;top:560px;">
-  <label> <input style type="checkbox" id="S9"></label>
-</div>
-
-<div style="position:absolute;left:980px;top:550px;">
-  <label> <input style type="checkbox" id="S11"></label>
-</div>
-
-</br></br></br></br></br></br></br></br></br></br></br></br>
-    <div id="tblwrap" style="position:absolute; top:800px;width:800px;height:300px;left:500px">
-                <div style="position:absolute; font-size:16px;background-color: black;  top:0px;left:0px; width:415px; height:50px;font-weight: bold;"><p style=" color:white">
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRUTH TABLE</p>
+                      <div id="input4">
+                        <table width="0%" border="0">
+                          <tr>
+                            <td>
+                              <input
+                                type="text"
+                                size="5"
+                                min="0"
+                                maxlength="1"
+                                name="myinputA"
+                                onkeyup="checkmyinput()"
+                                id="A"
+                                class="A"
+                              />
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
-                <div id="table" style="background-color: white;; position:absolute; top:50px;width:415px;height:250px;left:0px; overflow-y: auto;">
+                <div class="simulator-table container1">
+                  <div id="tblwrap"></div>
+                  <div class="table-title">
+                    <p>TRUTH TABLE</p>
+                  </div>
 
-                    <table id="mytable" width="400" border="1" >
-
+                  <div class="table-container">
+                    <table id="mytable">
+                      <thead>
                         <tr>
-                            <th width="15">Sl.No.</th>
-                            <th width="25">A</th>
-                            <th width="25">B</th>
-                            <th width="15">C</th>
-                            <th width="25">D</th>
-                            <th width="25" id="W">W</th>
-                            <th width="25" id="X">X</th>
-                            <th width="25" id="Y">Y</th>
-                            <th width="25" id="Z">Z</th>
-
-
-
-
-
-                            <!-- <th>load(Watt)</th>-->
+                          <th>Sl.No.</th>
+                          <th>A</th>
+                          <th>B</th>
+                          <th>C</th>
+                          <th>D</th>
+                          <th id="W">W</th>
+                          <th id="X">X</th>
+                          <th id="Y">Y</th>
+                          <th id="Z">Z</th>
                         </tr>
-
+                      </thead>
+                      <tbody id="table-body">
+                        <!-- Rows will be dynamically populated -->
+                      </tbody>
                     </table>
-                    <!-- <table id="mytable" border="1" >
-                    </table> -->
-                    </form>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__task-div footer">
+          <p>Copyright © SOLVE The Virtual Lab @ NITK Surathkal</p>
+        </div>
+      </div>
     </div>
-    </div>
-
-
-
-
-
-
-
-
- <br/>
-
-<br/>
-
- <script>
-              var n = 1;
-
-
-
-
-    function AddData()
-    {
-    var a = document.getElementById("A").value;
-    var b = document.getElementById("B").value;
-    var c = document.getElementById("C").value;
-    var d = document.getElementById("D").value;
-    var w = document.getElementById("W").value;
-    var x = document.getElementById("X").value;
-    var y = document.getElementById("Y").value;
-    var z = document.getElementById("Z").value;
-    var s1 = document.getElementById("S1").value;
-    var s19 = document.getElementById("S19").value;
-    var s2 = document.getElementById("S2").value;
-    var s3 = document.getElementById("S3").value;
-    var s4 = document.getElementById("S4").value;
-    var s5 = document.getElementById("S5").value;
-    var s15 = document.getElementById("S15").value;
-    var s17 = document.getElementById("S17").value;
-    var s18 = document.getElementById("S18").value;
-    var s20 = document.getElementById("S20").value;
-    var s16 = document.getElementById("S16").value;
-    var s14 = document.getElementById("S14").value;
-    var s8 = document.getElementById("S8").value;
-    var s9 = document.getElementById("S9").value;
-    var s10 = document.getElementById("S10").value;
-    var s11 = document.getElementById("S11").value;
-    var s6 = document.getElementById("S6").value;
-    var s7 = document.getElementById("S7").value;
-    var s12 = document.getElementById("S12").value;
-    var s13 = document.getElementById("S13").value;
-    var s21 = document.getElementById("S21").value;
-    var s22 = document.getElementById("S22").value;
-    var s23 = document.getElementById("S23").value;
-
-    var cd;
-    var caddd;
-    var cordnot;
-    var yn;
-    var cordnotandb;
-    var cadddandb;
-    var wn;
-    var bnot;
-    var cadddandbnot;
-    var xn;
-    if(d == "0"){
-      if(S1.checked == true && S19.checked == true){
-        z = "0";
-      }
-      if(S1.checked == true && S19.checked == false){
-        z = "1";
-      }
-      if(S1.checked == false && S19.checked == true){
-        z = "0";
-      }
-      if(S1.checked == false && S19.checked == false){
-        z = "1";
-      }
-    }
-    if(d == "1"){
-      if(S1.checked == true && S19.checked == true){
-        z = "0";
-      }
-      if(S1.checked == true && S19.checked == false){
-        z = "1";
-      }
-      if(S1.checked == false && S19.checked == true){
-        z = "0";
-      }
-      if(S1.checked == false && S19.checked == false){
-        z = "0";
-      }
-    }
-    if(d == "0" && c == "0"){
-      if(S2.checked == true && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == true && S3.checked == false){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == false){
-        cd = "0";
-      }
-    }
-    if(d == "0" && c == "1"){
-      if(S2.checked == true && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == true && S3.checked == false){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == false){
-        cd = "0";
-      }
-    }
-    if(d == "1" && c == "0"){
-      if(S2.checked == true && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == true && S3.checked == false){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == false){
-        cd = "0";
-      }
-
-    }
-    if(d == "1" && c == "1"){
-      if(S2.checked == true && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == true && S3.checked == false){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == true){
-        cd = "0";
-      }
-      if(S2.checked == false && S3.checked == false){
-        cd = "1";
-      }
-    }
-    if(d == "0" && c == "0"){
-      if(S4.checked == true && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == true && S5.checked == false){
-        caddd = "0";
-      }
-      if(S4.checked == false && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == false && S5.checked == false){
-        caddd = "0";
-      }
-    }
-    if(d == "0" && c == "1"){
-      if(S4.checked == true && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == true && S5.checked == false){
-        caddd = "1";
-      }
-      if(S4.checked == false && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == false && S5.checked == false){
-        caddd = "1";
-      }
-    }
-    if(d == "1" && c == "0"){
-      if(S4.checked == true && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == true && S5.checked == false){
-        caddd = "0";
-      }
-      if(S4.checked == false && S5.checked == true){
-        caddd = "1";
-      }
-      if(S4.checked == false && S5.checked == false){
-        caddd = "1";
-      }
-    }
-    if(d == "1" && c == "1"){
-      if(S4.checked == true && S5.checked == true){
-        caddd = "0";
-      }
-      if(S4.checked == true && S5.checked == false){
-        caddd = "1";
-      }
-      if(S4.checked == false && S5.checked == true){
-        caddd = "1";
-      }
-      if(S4.checked == false && S5.checked == false){
-        caddd = "1";
-      }
-    }
-    if(caddd == "1"){
-      if(S15.checked == false){
-        cordnot = "0";
-      }
-      if(S15.checked == true){
-        cordnot = "1";
-      }
-    }
-
-    if(caddd == "0"){
-      cordnot = "1";
-    }
-
-    if(cd == "0" && cordnot == "0"){
-      if(S18.checked == true && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == true && S17.checked == false){
-        yn = "0";
-      }
-      if(S18.checked == false && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == false && S17.checked == false){
-        yn = "0";
-      }
-    }
-    if(cd == "0" && cordnot == "1"){
-      if(S18.checked == true && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == true && S17.checked == false){
-        yn = "1";
-      }
-      if(S18.checked == false && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == false && S17.checked == false){
-        yn = "1";
-      }
-    }
-    if(cd == "1" && cordnot == "0"){
-      if(S18.checked == true && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == true && S17.checked == false){
-        yn = "0";
-      }
-      if(S18.checked == false && S17.checked == true){
-        yn = "1";
-      }
-      if(S18.checked == false && S17.checked == false){
-        yn = "1";
-      }
-    }
-    if(cd == "1" && cordnot == "1"){
-      if(S18.checked == true && S17.checked == true){
-        yn = "0";
-      }
-      if(S18.checked == true && S17.checked == false){
-        yn = "1";
-      }
-      if(S18.checked == false && S17.checked == true){
-        yn = "1";
-      }
-      if(S18.checked == false && S17.checked == false){
-        yn = "1";
-      }
-    }
-    if(S20.checked == false){
-      y = yn;
-    }
-    if(S20.checked == true){
-      y = "0";
-    }
-    if(cordnot == "0" && b == "0"){
-      if(S16.checked == true && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == true && S14.checked == false){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == false){
-        cordnotandb = "0";
-      }
-    }
-    if(cordnot == "0" && b == "1"){
-      if(S16.checked == true && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == true && S14.checked == false){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == false){
-        cordnotandb = "0";
-      }
-    }
-    if(cordnot == "1" && b == "0"){
-      if(S16.checked == true && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == true && S14.checked == false){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == false){
-        cordnotandb = "0";
-      }
-
-    }
-    if(cordnot == "1" && b == "1"){
-      if(S16.checked == true && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == true && S14.checked == false){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == true){
-        cordnotandb = "0";
-      }
-      if(S16.checked == false && S14.checked == false){
-        cordnotandb = "1";
-      }
-    }
-    if(caddd == "0" && b == "0"){
-      if(S8.checked == true && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == true && S9.checked == false){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == false){
-        cadddandb = "0";
-      }
-    }
-    if(caddd == "0" && b == "1"){
-      if(S8.checked == true && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == true && S9.checked == false){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == false){
-        cadddandb = "0";
-      }
-    }
-    if(caddd == "1" && b == "0"){
-      if(S8.checked == true && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == true && S9.checked == false){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == false){
-        cadddandb = "0";
-      }
-
-    }
-    if(caddd == "1" && b == "1"){
-      if(S8.checked == true && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == true && S9.checked == false){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == true){
-        cadddandb = "0";
-      }
-      if(S8.checked == false && S9.checked == false){
-        cadddandb = "1";
-      }
-    }
-    if(cadddandb == "0" && a == "0"){
-      if(S10.checked == true && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == true && S9.checked == false){
-        wn = "0";
-      }
-      if(S10.checked == false && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == false && S9.checked == false){
-        wn = "0";
-      }
-    }
-    if(cadddandb == "0" && a == "1"){
-      if(S10.checked == true && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == true && S9.checked == false){
-        wn = "1";
-      }
-      if(S10.checked == false && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == false && S9.checked == false){
-        wn = "1";
-      }
-    }
-    if(cadddandb == "1" && a == "0"){
-      if(S10.checked == true && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == true && S9.checked == false){
-        wn = "0";
-      }
-      if(S10.checked == false && S9.checked == true){
-        wn = "1";
-      }
-      if(S10.checked == false && S9.checked == false){
-        wn = "1";
-      }
-    }
-    if(cadddandb == "1" && a == "1"){
-      if(S10.checked == true && S9.checked == true){
-        wn = "0";
-      }
-      if(S10.checked == true && S9.checked == false){
-        wn = "1";
-      }
-      if(S10.checked == false && S9.checked == true){
-        wn = "1";
-      }
-      if(S10.checked == false && S9.checked == false){
-        wn = "1";
-      }
-    }
-    if(S11.checked == false){
-      w= wn;
-    }
-    if(S11.checked == true){
-      w = 0;
-    }
-    if(b == "0"){
-      bnot = "1";
-    }
-    if(b == "1"){
-      if(S6.checked == true){
-        bnot = "1";
-      }
-      if(S6.checked == false){
-        bnot = "0";
-      }
-    }
-    if(caddd == "0" && bnot == "0"){
-      if(S13.checked == true && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == true && S12.checked == false){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == false){
-        cadddandbnot = "0";
-      }
-    }
-    if(caddd == "0" && bnot == "1"){
-      if(S13.checked == true && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == true && S12.checked == false){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == false){
-        cadddandbnot = "0";
-      }
-    }
-    if(caddd == "1" && bnot == "0"){
-      if(S13.checked == true && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == true && S12.checked == false){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == false){
-        cadddandbnot = "0";
-      }
-
-    }
-    if(caddd == "1" && bnot == "1"){
-      if(S13.checked == true && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == true && S12.checked == false){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == true){
-        cadddandbnot = "0";
-      }
-      if(S13.checked == false && S12.checked == false){
-        cadddandbnot = "1";
-      }
-    }
-    if(cordnotandb == "0" && cadddandbnot == "0"){
-      if(S22.checked == true && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == true && S21.checked == false){
-        xn = "0";
-      }
-      if(S22.checked == false && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == false && S21.checked == false){
-        xn = "0";
-      }
-    }
-    if(cordnotandb == "0" && cadddandbnot == "1"){
-      if(S22.checked == true && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == true && S21.checked == false){
-        xn = "1";
-      }
-      if(S22.checked == false && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == false && S21.checked == false){
-        xn = "1";
-      }
-    }
-    if(cordnotandb == "1" && cadddandbnot == "0"){
-      if(S22.checked == true && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == true && S21.checked == false){
-        xn = "0";
-      }
-      if(S22.checked == false && S21.checked == true){
-        xn = "1";
-      }
-      if(S22.checked == false && S21.checked == false){
-        xn = "1";
-      }
-    }
-    if(cordnotandb == "1" && cadddandbnot == "1"){
-      if(S22.checked == true && S21.checked == true){
-        xn = "0";
-      }
-      if(S22.checked == true && S21.checked == false){
-        xn = "1";
-      }
-      if(S22.checked == false && S21.checked == true){
-        xn = "1";
-      }
-      if(S22.checked == false && S21.checked == false){
-        xn = "1";
-      }
-    }
-    if(S23.checked == false){
-      x = xn;
-    }
-    if(S23.checked == true){
-      x = 0;
-    }
-
-                    var table = document.getElementById("mytable");
-
-
-                    // Create an empty <tr> element and add it to the 1st position of the table:
-                    var row = table.insertRow(-1);
-                    // Insert new cells (<td> elements) at the 1st and 2nd position of the "new" <tr> element:
-                    var cell1 = row.insertCell(0);
-                    var cell2 = row.insertCell(1);
-                    var cell3 = row.insertCell(2);
-                    var cell4 = row.insertCell(3);
-                   var cell5 = row.insertCell(4);
-                   var cell6 = row.insertCell(5);
-                   var cell7 = row.insertCell(6);
-                   var cell8 = row.insertCell(7);
-                   var cell9 = row.insertCell(8);
-
-
-                    cell1.innerHTML = n++;
-                    cell2.innerHTML = a;
-                    cell3.innerHTML = b;
-                    cell4.innerHTML = c;
-                     cell5.innerHTML = d;
-                     cell6.innerHTML = w;
-                     cell7.innerHTML = x;
-                     cell8.innerHTML = y;
-                     cell9.innerHTML = z;
-
-
-                }
-
-function clearForm() {
-           document.getElementById("mytable").reset();
-}
-
-function pr() {
-  window.print();
-}
-</script>
-</div>
-
-
-</body>
-
-
+    <script defer src="js/script.js"></script>
+  </body>
 </html>
