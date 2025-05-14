@@ -62,5 +62,5 @@ There are two kinds of SAF:<br>
 <p style="text-align: justify;">A circuit with n lines can have (3<sup>n</sup>)-1 possible stuck line combinations. Each line can be Stuck At 0, Stuck At 1 or No Fault.</p>
 
 #### Examples of Stuck At 1 Faults for XOR gate 
-<center><img src="images/stuck.png" width="425" height="350"></center>
+<center><img src="images/stuck.png" width="50%"></center>
 
