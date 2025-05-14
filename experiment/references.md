@@ -1,8 +1,8 @@
-### Book References :
-1. "Digital Logic and Computer Design" by Morris Mano 4th Edition.
-2. “Digital Design: An Embedded Systems Approach Using VERILOG” by Ashenden.
+### Book References 
+1. Digital Logic and Computer Design by Morris Mano 4th Edition.
+2. Digital Design: An Embedded Systems Approach Using VERILOG by Ashenden.
+3. Digital System Test and Testable Design, by Zainalabedin Navabi.
 
-### Web References :
-1. https://electricalworkbook.com/bcd-to-excess-3-code-converter-circuit/
-2. https://www.javatpoint.com/conversion-of-bcd-to-excess-3-code-in-digital-electronics#:~:text=The%20process%20of%20converting%20BCD%20to%20Excess%2D3%20is%20quite,each%20four%2Ddigit%20BCD%20code
-3. https://accendoreliability.com/digital-circuits-stuck-fault-model/
+### Web References 
+1. <a href="https://electricalworkbook.com/bcd-to-excess-3-code-converter-circuit/">https://electricalworkbook.com/bcd-to-excess-3-code-converter-circuit/</a>
+2. <a href="https://accendoreliability.com/digital-circuits-stuck-fault-model/">https://accendoreliability.com/digital-circuits-stuck-fault-model/</a>
