@@ -49,14 +49,6 @@
 
 <center><img src="images/35777.png" width="50%"></center>
 
-#### Circuit Diagram for BCD to Excess-3 Converter 
-
-<center>
-<img src="https://static.javatpoint.com/tutorial/digital-electronics/images/bcd-to-excess-3-conversion2.png" alt="circuit" />
-</center>
-<br>
-
-
 ### Stuck At Faults 
 <p style="text-align: justify;">A stuck-at fault (SAF) is a logic-level fault. Stuck at faults occur when a line is permanently stuck to Vdd or ground giving a faulty output. This line may be an input or output to any gate. Also this fault can be single or multiple stuck at faults. </p>
 There are two kinds of SAF:<br>
