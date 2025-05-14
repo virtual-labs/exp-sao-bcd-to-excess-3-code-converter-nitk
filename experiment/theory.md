@@ -47,7 +47,7 @@
 
 <p style="text-align: justify;">From the truth table above, we draw the K-Maps for each of the output variables W, X, Y and Z.</p>
 
-<center><img src="images/35777.png" width="725" height="850"></center>
+<center><img src="images/35777.png" width="50%"></center>
 
 #### Circuit Diagram for BCD to Excess-3 Converter 
 
