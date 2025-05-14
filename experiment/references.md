@@ -5,4 +5,4 @@
 
 ### Web References 
 1. <a href="https://electricalworkbook.com/bcd-to-excess-3-code-converter-circuit/">https://electricalworkbook.com/bcd-to-excess-3-code-converter-circuit/</a>
-2. <a href="https://accendoreliability.com/digital-circuits-stuck-fault-model/"></a>
+2. <a href="https://accendoreliability.com/digital-circuits-stuck-fault-model/">https://accendoreliability.com/digital-circuits-stuck-fault-model/</a>
