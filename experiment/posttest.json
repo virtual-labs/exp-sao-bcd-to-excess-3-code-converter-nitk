@@ -11,12 +11,12 @@
       },
       "explanations": {
         "a": "",
-        "b": "",
+        "b": "The minimized Boolean expressions for BCD to Excess-3 conversion require three complemented inputs, thus only 3 inverter gates are needed in the circuit.",
         "c": "",
         "d": ""
       },
       "correctAnswer": "b",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
       "question": "In an XOR gate with inputs I1 and I2, if there is a stuck at 0 at I1, then the output is",
@@ -27,16 +27,16 @@
         "d": "~I1"
       },
       "explanations": {
-        "a": "",
+        "a": "If I1 is stuck at 0, the XOR gate outputs I1 ⊕ I2 = 0 ⊕ I2 = I2.",
         "b": "",
         "c": "",
         "d": ""
       },
       "correctAnswer": "a",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
-      "question": "The minimised expression for Z is given by",
+      "question": "What is the minimized Boolean expression for the output Z?",
       "answers": {
         "a": "CD+~C~D",
         "b": "~CD+C~D",
@@ -47,10 +47,10 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": ""
+        "d": "The logic simplification results in Z being the complement of D"
       },
       "correctAnswer": "d",
-      "difficulty": ""
+      "difficulty": "beginner"
     },
     {
       "question": "How many AND and OR gates are used for BCD to Excess-3 conversion?",
@@ -63,11 +63,11 @@
       "explanations": {
         "a": "",
         "b": "",
-        "c": "",
+        "c": "The minimized logic expressions for BCD to Excess-3 conversion require 4 AND gates and 4 OR gates for the implementation.",
         "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": ""
+      "difficulty": "intermediate"
     },
     {
       "question": "The excess-3 representation of BCD value 100 is",
@@ -78,13 +78,13 @@
         "d": "1011"
       },
       "explanations": {
-        "a": "",
+        "a": "The Excess-3 representation of BCD value 100 (which is 4 in decimal) is obtained by adding 3 (0011 in binary), resulting in 111.",
         "b": "",
         "c": "",
         "d": ""
       },
       "correctAnswer": "a",
-      "difficulty": ""
+      "difficulty": "beginner"
     }
   ]
 }
