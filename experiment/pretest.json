@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How many kinds of stuck at faults are there ?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "Stuck-at faults are classified into two types: stuck-at-0 and stuck-at-1, where a signal line is stuck at either 0 or 1, regardless of the input.",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "In an XOR gate with inputs I1 and I2, if there is a stuck at 1 at I1, then the output is ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "I2",
+        "b": "I1",
+        "c": "~I2",
+        "d": "~I1"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "With a stuck-at-1 fault at I1, the XOR gate behaves as if I1 is always 1. The output then depends on the negation of I2 (i.e., ~I2)",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Stuck at faults can occur at",
+      "answers": {
+        "a": "Input lines",
+        "b": "Output lines",
+        "c": "Input and Output lines",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": " Stuck-at faults can occur both at the input lines (where signals are fixed at 0 or 1) and the output lines (where the output is fixed at 0 or 1 regardless of the inputs)",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "A circuit with n lines can have how many stuck line combinations",
+      "answers": {
+        "a": "2n-1",
+        "b": "(2<sup>n</sup>)-1",
+        "c": "3n-1",
+        "d": "(3<sup>n</sup>)-1"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "For a circuit with n lines, there are three possibilities for each line: the line can be stuck at 0, stuck at 1, or functioning normally. Thus, there are 3^n combinations, and subtracting 1 accounts for the case where no line is stuck. "
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The minimised expression for Y is given by",
+      "answers": {
+        "a": "CD+~C~D",
+        "b": "~CD+C~D",
+        "c": "D",
+        "d": "~D"
+      },
+      "explanations": {
+        "a": "The expression CD+~C~D covers the cases where C and D are either both 1 or both 0, ensuring the correct output for all combinations of these variables.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
